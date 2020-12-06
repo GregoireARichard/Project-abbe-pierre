@@ -1,0 +1,52 @@
+/*the following code is optimised for smartphones only*/
+.mainTitle{
+  padding-top: 100px;
+}
+.mainTitle, .give{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.logoContainer{
+  display: flex;
+  margin:0 auto;
+  width: 1500px;
+}
+.logo{
+  display:block;
+  text-align: center;
+  justify-content: center;
+}
+.utip{
+  width:20%;
+}
+@media only screen and (max-width: 660px){
+  body{
+    background:url('../images/background.png');
+  }
+  .mainTitle{
+    padding-top: 100px;
+  }
+  .mainTitle, .give{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color:#FFFFFF;
+  }
+  .logoContainer{
+    margin:0 auto;
+    width: 375px;
+  }
+  .lydiaContainer, .utipContainer{
+    margin: 0 auto;
+    width:100vw;
+  }
+  .logo{
+    display:block;
+    justify-content: center;
+  }
+  .lydia{
+    width:20%;
+  }
+  .utip{
+    width:20%;
+  }
+}
